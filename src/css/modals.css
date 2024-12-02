@@ -1,0 +1,121 @@
+@font-face {
+    font-family: oswald-regular;
+    src: url(../assets/fonts/Oswald-Regular.ttf);
+}
+@font-face {
+    font-family: domine-regular;
+    src: url(../assets/fonts/Domine-Regular.ttf);
+}
+body {
+    width: 100%;
+    height: 100%;
+}
+.main_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.main_header {
+    color: var(--primary-font-color);
+    font-size: 1.875rem;
+    font-family: oswald-regular;
+}
+.component_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    flex-wrap: wrap;
+}
+.component_description {
+    font-size: 1.125rem;
+    font-family: domine-regular;
+    color: var(--primary-font-color);
+}
+.modal-normal {
+    color: var(--primary-font-color);
+    font-size: 1.125;
+    font-family: domine-regular;
+    background-color: var(--button-style-color);
+    padding: 10px 15px;
+    text-align: center;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+.modal-hover {
+    color: var(--primary-font-color);
+    font-size: 1.125;
+    font-family: domine-regular;
+    background-color: var(--button-style-color);
+    padding: 10px 15px;
+    text-align: center;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+.modal-hover:hover {
+    background-color: var(--button-hover-color);
+    transition: color 0.3s linear;
+}
+.button-open {
+    color: var(--primary-font-color);
+    font-size: 1.125;
+    font-family: domine-regular;
+    background-color: var(--button-style-color);
+    padding: 10px 15px;
+    text-align: center;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+.button-open:hover {
+    background-color: var(--button-hover-color);
+    transition: color 0.3s linear;
+}
+
+/* modal background */
+.modal {
+    display: none;
+    position: relative;
+    z-index: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    left: 0;
+    top: 0;
+    width: 30%;
+    height: 30%;
+    overflow: auto;
+    background-color: var(--navbar-background-color);
+}
+
+/* modal content */
+.modal-content {
+    color: var(--primary-font-color);
+    background-color: var(--navbar-background-color);
+    margin: auto;
+    padding: 20px;
+    border: 1px solid var(--primary-font-color);
+    width: 80%;
+    font-family: domine-regular;
+    font-size: 1rem;
+}
+
+/* close button */
+.close {
+    color: var(--primary-font-color);
+    float: right;
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+.close:hover,
+.close:focus {
+    color: var(--button-hover-color);
+    text-decoration: none;
+    cursor: pointer;
+}

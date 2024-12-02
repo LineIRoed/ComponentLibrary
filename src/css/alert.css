@@ -1,0 +1,64 @@
+@font-face {
+    font-family: oswald-regular;
+    src: url(../assets/fonts/Oswald-Regular.ttf);
+}
+@font-face {
+    font-family: domine-regular;
+    src: url(../assets/fonts/Domine-Regular.ttf);
+}
+body {
+    width: 100%;
+    height: 100%;
+}
+.main_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.main_header {
+    color: var(--primary-font-color);
+    font-size: 1.875rem;
+    font-family: oswald-regular;
+}
+.component_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    flex-wrap: wrap;
+}
+.component_description {
+    font-size: 1.125rem;
+    font-family: domine-regular;
+    color: var(--primary-font-color);
+}
+
+/* alert message box */
+.alert {
+    padding: 20px;
+    background-color: var(--navbar-background-color);
+    color: red;
+    margin-bottom: 15px;
+}
+
+/* close button */
+.closebtn {
+    margin-left: 15px;
+    color: var(--primary-font-color);
+    font-weight: 700;
+    float: right;
+    font-size: 1rem;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* close button hover */
+.closebtn:hover {
+    color: var(--button-hover-color);
+}
