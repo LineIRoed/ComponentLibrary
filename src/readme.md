@@ -48,7 +48,7 @@ If you have any questions or suggestions, feel free to reach out to me at [anro0
 
 Link to github repository: https://github.com/LineIRoed/ComponentLibrary.git
 
-link to netlify deployment: https://6757152abd7abe18670da176--jovial-llama-74375c.netlify.app/cards
+link to netlify deployment: https://675853b895bc0f0008ea747d--jovial-llama-74375c.netlify.app/
 
 Tutorial i followed for modals: https://www.w3schools.com/howto/howto_css_modals.asp
 Tutorial i followed for toast: https://www.w3schools.com/howto/howto_js_snackbar.asp
