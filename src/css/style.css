@@ -6,6 +6,7 @@ main {
     background-color: var(--primary-background-color);
     padding: 1.5rem;
 }
+/* image styling */
 .img_container {
     display: flex;
     align-items: center;

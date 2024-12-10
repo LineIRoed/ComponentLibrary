@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./css/footer.css">
 </head>
 <body>
+    <!-- navigation bar -->
     <nav>
         <div class="navbar_container">
             <a href="./index.html"><h1 class="nav_header">Component Library</h1></a>
@@ -44,17 +45,21 @@
             </div>
         </div>
     </nav>
+    <!-- main component of page -->
     <main>
         <div class="main_container">
             <p class="main_header">Toast</p>
+            <!-- toast inactive -->
             <div class="component_container">
                 <p class="component_description">Inactive</p>
                 <button class="button-inactive" disabled>Show Snackbar</button>
             </div>
+            <!-- toast hover -->
             <div class="component_container">
                 <p class="component_description">Hover</p>
                 <button class="button-hover">Show Snackbar</button>
             </div>
+            <!-- toast active -->
             <div class="component_container">
                 <p class="component_description">Active</p>
                 <button onclick="myFunction()" class="button-active">Show Snackbar</button>
@@ -62,7 +67,9 @@
             </div>
         </div>
     </main>
+    <!-- link to js file -->
     <script src="./js/toast.js"></script>
+    <!-- footer -->
     <footer>
         <div class="footer_container">
             <a href="#" class="copyright_footer">© ComponentLibrary 2024</a>

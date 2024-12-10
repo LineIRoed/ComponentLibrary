@@ -1,14 +1,16 @@
+/* fonts */
 @font-face {
     font-family: domine-regular;
     src: url(../assets/fonts/Domine-Regular.ttf);
 }
-
+/* footer container */
 .footer_container {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 2rem;
 }
+/* copyright styling */
 .copyright_footer {
     font-family: domine-regular;
     color: var(--primary-font-color);

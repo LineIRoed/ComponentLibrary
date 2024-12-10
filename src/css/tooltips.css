@@ -1,3 +1,4 @@
+/* fonts */
 @font-face {
     font-family: oswald-regular;
     src: url(../assets/fonts/Oswald-Regular.ttf);
@@ -19,6 +20,7 @@ body {
     padding-top: 5%;
     padding-bottom: 5%;
 }
+/* header */
 .main_header {
     color: var(--primary-font-color);
     font-size: 1.875rem;

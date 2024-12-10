@@ -1,3 +1,4 @@
+/* fonts */
 @font-face {
     font-family: oswald-regular;
     src: url(../assets/fonts/Oswald-Regular.ttf);
@@ -19,6 +20,7 @@ body {
     padding-top: 5%;
     padding-bottom: 5%;
 }
+/* header */
 .main_header {
     color: var(--primary-font-color);
     font-size: 1.875rem;
@@ -37,7 +39,7 @@ body {
     font-family: domine-regular;
     color: var(--primary-font-color);
 }
-
+/* button inactive */
 .button-inactive {
     color: var(--primary-font-color);
     font-size: 1.125;
@@ -48,7 +50,7 @@ body {
     border-radius: 20px;
     border: none;
 }
-
+/* button hover */
 .button-hover {
     color: var(--primary-font-color);
     font-size: 1.125;
@@ -64,7 +66,7 @@ body {
     background-color: var(--button-hover-color);
     transition: color 0.3s linear;
 }
-
+/* button active */
 .button-active {
     color: var(--primary-font-color);
     font-size: 1.125;
