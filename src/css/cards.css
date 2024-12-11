@@ -92,3 +92,17 @@ body {
 .card_hover:hover {
     box-shadow: 0 10px 18px 0 #0F1816;
 }
+
+@media screen and (max-width: 400px) {
+    .card_normal {
+        width: 200px;
+        height: 250px;
+    }
+    .card_container {
+        width: 200px;
+    }
+    .card_hover {
+        width: 200px;
+        height: 250px;
+    }
+}

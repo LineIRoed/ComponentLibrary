@@ -50,3 +50,10 @@
     background-color: var(--button-hover-color);
     transition: color 0.3s linear;
 }
+
+@media screen and (max-width: 400px) {
+    .navbar_container {
+        padding-left: 1rem;
+        padding-top: 1rem;
+    }   
+}
